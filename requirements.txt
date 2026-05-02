@@ -1,0 +1,33 @@
+# Core ML
+torch>=2.9.0
+transformers>=4.57.6
+accelerate>=1.6.0
+
+# Inference serving (install separately — version depends on your CUDA/driver)
+# vllm>=0.9.0
+
+# OpenAI-compatible client (used by run_inference.py and run_pruned.py)
+openai>=2.8.1
+
+# Numerics & data
+numpy>=2.2.6
+scipy>=1.15.3
+pandas>=2.3.3
+datasets>=4.8.4
+
+# Optimization
+cma>=4.4.4
+
+# Visualization
+matplotlib>=3.10.8
+seaborn>=0.13.2
+
+# Progress bars
+tqdm>=4.67.1
+
+# Evaluation harnesses
+evalplus>=0.3.1
+# lcb_runner is installed from source — see below:
+#   git clone https://github.com/LiveCodeBench/LiveCodeBench ~/LiveCodeBench
+#   pip install -e ~/LiveCodeBench --no-deps
+
