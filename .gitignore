@@ -2,7 +2,7 @@
 .vscode/
 data/
 results/
-__pycache__/
+__pycache__
 ashish/
 hml_status.md
 *.json
